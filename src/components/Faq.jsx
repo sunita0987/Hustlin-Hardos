@@ -11,7 +11,7 @@ const Faq = () => {
 
   return (
     <>
-      <div id="faqs">
+      <div id="faqs" className="bg-[#f6f1e2]">
         <div className="max-w-[1140px] px-3 xl:px-0 mx-auto py-10 sm:py-14 md:py-20 lg:py-[88.5px] bg-[#F6F1E2]">
           <div className="flex items-center justify-between">
             <CommonHeading

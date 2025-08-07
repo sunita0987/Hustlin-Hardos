@@ -15,8 +15,8 @@ const LatestTweets = () => {
 
   return (
     <>
-      <div>
-        <div className="max-w-[1140px] px-3 mx-auto py-10 md:py-15 lg:py-[89px] bg-[#F6F1E2]">
+      <div className="bg-[#f6f1e2]">
+        <div className="max-w-[1140px] px-3 mx-auto py-10 md:py-15 lg:py-[89px]">
           <div className="flex justify-between items-center">
             <CommonHeading HeadText="Latest Tweets" HeadClass="uppercase" />
             <div className="flex items-center gap-[55px]">

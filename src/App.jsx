@@ -9,6 +9,7 @@ import Minting from "./components/Minting";
 import Roadmap from "./components/RoadMap";
 import Team from "./components/Team";
 import Faq from "./components/Faq";
+import BreakingNews from "./components/BreakingNews";
 
 
 function App() {
@@ -17,7 +18,7 @@ function App() {
       <NavSlider />
       <Header />
       <Hero />
-      {/* <BreakingNews /> */}
+      <BreakingNews />
       <LatestTweets />
       <Minting />
       <Roadmap />
