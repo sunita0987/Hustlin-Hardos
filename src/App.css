@@ -1,0 +1,35 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  font-family: "Noto Serif", sans-serif;
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: ff-moderfb;
+  src: url("/public/font/modernofbcomp-bold.otf");
+}
+
+.ff-moderfb {
+  font-family: ff-moderfb;
+}
+
+body {
+  background-image: url("../assets/images/bg-image.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 640px) {
+  .rfm-marquee-container {
+    gap: 40px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .rfm-marquee-container {
+    gap: 62px;
+  }
+}
