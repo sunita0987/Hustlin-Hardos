@@ -30,7 +30,7 @@ const Header = () => {
             <div
               id="menu"
               className={`flex gap-5 items-center transition-all duration-300 max-sm:z-40 max-sm:fixed max-sm:flex-col max-sm:w-full max-sm:h-full max-sm:justify-center max-sm:items-center max-sm:bg-cream max-sm:left-0 ${
-                menuOpen ? "top-0 " : "-top-full"
+                menuOpen ? "top-0  bg-[#F6F1E2]" : "-top-full"
               }`}
             >
               <div className="flex gap-[18px] max-sm:gap-4 items-center">
