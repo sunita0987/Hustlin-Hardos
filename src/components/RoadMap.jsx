@@ -39,7 +39,7 @@ const Roadmap = () => {
               </p>
               <CommonPara
                 ParaText={
-                  "The concept of Hustlin’ Hardos was born a few short weeks ago and we’re currently focused on the most important aspect of the project - COMMUNITY. We are organizing giveaways and events to spread the word around what will be one of the most exciting NFT projects so far. We also aim to reward those driving early engagement for the project in the form of white-list and pre-sale access to the official Hustlin’ Hardo drop. Join us on our Discord channel to see what we are all about!"
+                  "The concept of Hustlin' Hardos was born a few short weeks ago and we’re currently focused on the most important aspect of the project - COMMUNITY. We are organizing giveaways and events to spread the word around what will be one of the most exciting NFT projects so far. We also aim to reward those driving early engagement for the project in the form of white-list and pre-sale access to the official Hustlin’ Hardo drop. Join us on our Discord channel to see what we are all about!"
                 }
                 ParaClass={"leading-[121%] max-md:text-sm"}
               />
@@ -60,7 +60,7 @@ const Roadmap = () => {
               </p>
               <CommonPara
                 ParaText={
-                  "Hustlin’ Hardos can be minted and are revealed to the world. There will only ever be 9,999 Hustlin’ Hardos, so this is your chance to get your hands on this unique collectible item, which will become an integral part of your online identity"
+                  "Hustlin' Hardos can be minted and are revealed to the world. There will only ever be 9,999 Hustlin’ Hardos, so this is your chance to get your hands on this unique collectible item, which will become an integral part of your online identity"
                 }
                 ParaClass={"leading-[121%] lg:max-w-[460px] max-md:text-sm"}
               />
@@ -97,8 +97,7 @@ const Roadmap = () => {
               </div>
               <p className="text-sm pb-2.5">Phase 4</p>
               <p className="pb-3 font-semibold text-4xl leading-[111%] max-lg:text-3xl max-md:text-2xl">
-                {" "}
-                No-Loss Gambling{" "}
+                No-Loss Gambling
               </p>
               <CommonPara
                 ParaClass={"leading-[121%] lg:max-w-[460px] max-md:text-sm"}
@@ -118,11 +117,11 @@ const Roadmap = () => {
               </div>
               <p className="text-sm pb-2.5">Phase 5</p>
               <p className="pb-3 font-semibold text-4xl leading-[111%] max-lg:text-3xl max-md:text-2xl">
-                Hustlin’ Hardettes
+                Hustlin' Hardettes
               </p>
               <CommonPara
                 ParaText={
-                  "The ethos of Hustlin’ Hardos is to create an authentic and inclusive community where we would celebrate the quirky nature of the finance world. With that objective in mind, we will also launch a brand now collection to celebrate the Hardettes who are an integral part of this community."
+                  "The ethos of Hustlin' Hardos is to create an authentic and inclusive community where we would celebrate the quirky nature of the finance world. With that objective in mind, we will also launch a brand now collection to celebrate the Hardettes who are an integral part of this community."
                 }
                 ParaClass={"leading-[121%] max-md:text-sm"}
               />
@@ -162,7 +161,7 @@ const Roadmap = () => {
               </p>
               <CommonPara
                 ParaText={
-                  "It wouldn’t make sense to build one of the best online communities and not actively listen to its suggestions. As such, we also plan to execute against some community-generated ideas, delivering against the priorities of those who made Hustlin’ Hardos a success"
+                  "It wouldn't make sense to build one of the best online communities and not actively listen to its suggestions. As such, we also plan to execute against some community-generated ideas, delivering against the priorities of those who made Hustlin’ Hardos a success"
                 }
                 ParaClass={"leading-[121%] max-md:text-sm"}
               />

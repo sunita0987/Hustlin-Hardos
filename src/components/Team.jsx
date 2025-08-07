@@ -64,7 +64,7 @@ const Team = () => {
                     <h3 className="pt-4 text-center font-extrabold text-3xl sm:text-4xl leading-[100%] text-[#70675F]">
                       {data.heading}
                     </h3>
-                    <p className="pt-4 text-center leading-[130%] text-black">
+                    <p className="pt-4 text-center leading-[130%] text-[#000000]">
                       {data.para}
                     </p>
                   </div>

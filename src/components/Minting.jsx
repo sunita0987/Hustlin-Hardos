@@ -18,8 +18,8 @@ const Minting = () => {
             HeadText={"Minting"}
           />
         </div>
-        <div className="border-y-2 border-solid max-xl:px-3 border-black">
-          <div className="max-w-[1140px] max-lg:border-none mx-auto border-x-2 border-solid border-black">
+        <div className="border-y-2 border-solid max-xl:px-3 border-[#000000]">
+          <div className="max-w-[1140px] max-lg:border-none mx-auto border-x-2 border-solid border-[#000000]">
             <div className="w-full flex justify-center max-lg:flex-col max-lg:py-5 max-lg:gap-3 items-center bg-[#F6F1E2]">
               <div className="lg:max-w-[570px] px-[25px] max-lg:px-0 w-full">
                 <div className="lg:max-w-[438px] ">
@@ -29,14 +29,14 @@ const Minting = () => {
                       "Most of the Hustlin’ Hardos first experienced NFTs via other successful projects like NBA TopShot, where revealing your newly minted item invoked the same emotions as opening up that first pack of baseball cards. NFTs have allowed us to enjoy those feelings once again while also empowering communities through shared ownership. The space has seen incredible growth over the past year, and it is our belief that we are in the very early innings of the paradigm shift that will be powered by web3."
                     }
                   />
-                  <div className="min-h-[49px] border-2 mt-[15px] border-solid flex border-black max-sm:max-w-[170px] max-w-[238px]">
+                  <div className="min-h-[49px] border-2 mt-[15px] border-solid flex border-[#000000] max-sm:max-w-[170px] max-w-[238px]">
                     <button
                       onClick={decrement}
                       className="text-4xl cursor-pointer max-md:text-3xl px-6 max-sm:px-3 max-sm:text-2xl pb-[5px] font-semibold"
                     >
                       -
                     </button>
-                    <p className="min-w-[109px] max-sm:min-w-24 border-x-2 border-solid border-black flex justify-center items-center text-4xl max-md:text-3xl px-6 max-sm:px-4 max-sm:text-2xl font-semibold">
+                    <p className="min-w-[109px] max-sm:min-w-24 border-x-2 border-solid border-[#000000] flex justify-center items-center text-4xl max-md:text-3xl px-6 max-sm:px-4 max-sm:text-2xl font-semibold">
                       {count}
                     </p>
                     <button
@@ -49,8 +49,7 @@ const Minting = () => {
                 </div>
                 <CommonButton btnText={"Mint Now"} btnClass={"mt-[35px]"} />
                 <p className="text-lg font-semibold leading-[100%] text-[#00A106] pt-9">
-                  {" "}
-                  Time Left{" "}
+                  Time Left
                 </p>
                 <p className="text-4xl font-semibold leading-[100%] pt-2 text-[#FF0000]">
                   40:15:12:10
@@ -59,7 +58,7 @@ const Minting = () => {
               <img
                 src={BlueOutfit}
                 alt="man-img"
-                className="max-w-[570px] pointer-events-none max-lg:border-none max-lg:w-full border-l-2 border-solid border-black"
+                className="max-w-[570px] pointer-events-none max-lg:border-none max-lg:w-full border-l-2 border-solid border-[#000000]"
               />
             </div>
           </div>

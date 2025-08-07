@@ -3,7 +3,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
-
 import CommonHeading from "../common/CommonHeading";
 import LeftArrow from "../assets/images/left-arrow.svg";
 import RightArrow from "../assets/images/right-arrow.svg";

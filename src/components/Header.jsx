@@ -30,7 +30,7 @@ const Header = () => {
             <div
               id="menu"
               className={`flex gap-5 items-center transition-all duration-300 max-sm:z-40 max-sm:fixed max-sm:flex-col max-sm:w-full max-sm:h-full max-sm:justify-center max-sm:items-center max-sm:bg-cream max-sm:left-0 ${
-                menuOpen ? "top-0 bg-[#F6F1E2]" : "-top-full"
+                menuOpen ? "top-0 " : "-top-full"
               }`}
             >
               <div className="flex gap-[18px] max-sm:gap-4 items-center">
@@ -58,9 +58,9 @@ const Header = () => {
                 <span
                   key={id}
                   id={id}
-                  className={`flex w-7 bg-black h-1 transition-all duration-300 rounded-md ${
+                  className={`flex w-7 bg-[#000000] h-1 transition-all duration-300 rounded-md ${
                     i === 1
-                      ? "relative after:absolute  after:w-full after:rounded-md after:h-full after:left-0 after:top-0 after:bg-black after:transition-all after:duration-300"
+                      ? "relative after:absolute  after:w-full after:rounded-md after:h-full after:left-0 after:top-0 after:bg-[#000000] after:transition-all after:duration-300"
                       : ""
                   }`}
                 ></span>
@@ -74,7 +74,7 @@ const Header = () => {
               <a
                 key={index}
                 href={`#${item}`}
-                className="px-6 border-r-2 uppercase first:border-l-2 whitespace-nowrap hover:bg-black hover:text-white transition-all duration-500 max-md:text-sm max-sm:text-xs py-[7px] max-sm:py-1 max-sm:px-2"
+                className="px-6 border-r-2 uppercase first:border-l-2 whitespace-nowrap hover:bg-[#000000] hover:text-[#ffffff] transition-all duration-500 max-md:text-sm max-sm:text-xs py-[7px] max-sm:py-1 max-sm:px-2"
               >
                 {item.charAt(0).toUpperCase() + item.slice(1)}
               </a>
